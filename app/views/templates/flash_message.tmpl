@@ -1,0 +1,10 @@
+<!--Template for Flash Messages -->
+<script id="flashMessagesTemplate" type="text/x-tmpl">
+  <div class="message {%= o.type %}">
+    {% for (var index in o.messages) { %}
+      <p>
+        {%= o.messages[index] %}
+      </p>
+    {% } %}
+  </div>
+</script>

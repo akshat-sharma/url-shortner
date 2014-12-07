@@ -1,0 +1,4 @@
+development:
+  ROOT_URL: 'localhost:3000'
+production:
+  ROOT_URL: 'pramod-url-shortner.herokuapp.com'

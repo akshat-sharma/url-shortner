@@ -1,0 +1,13 @@
+<h1>New url</h1>
+
+<%= render 'form' %>
+
+<div id='urls-area'>
+  
+</div>
+
+<%= link_to 'Back', urls_path %>
+
+<%= render template: 'templates/urls_table', formats: :tmpl %>
+<%= render template: 'templates/urls_row', formats: :tmpl %>
+<%= render template: 'templates/flash_message', formats: :tmpl %>
